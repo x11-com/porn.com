@@ -1,4 +1,5 @@
 /* Put your custom styles here and run `npm start` from the "src" directory on */
+img { height: auto }
 
 #TableOfContents ul li {
   margin-bottom: 1em;
