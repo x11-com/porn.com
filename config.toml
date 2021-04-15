@@ -16,7 +16,7 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
-  favicon = "favicon.ico"
+  favicon = "/images/favicon.ico"
   description = "porn.com is under construction"
   facebook = "https://facebook.com/donPabloNow"
   twitter = "https://twitter.com/donPabloNow"
