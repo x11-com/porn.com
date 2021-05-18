@@ -1,5 +1,5 @@
 name: Build and deploy Hugo site
-on: [push]
+on: [ push ]
 jobs:
   deploy:
     runs-on: ubuntu-18.04

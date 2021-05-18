@@ -1,8 +1,24 @@
-<footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
-    &copy; {{ now.Format "2006" }} {{ .Site.Title }} - a don Federation Company
-  </a>
+<footer bg-black class="{{ .Site.Params.background_color_class | default "" }} bottom-0 w-100 pa3" role="contentinfo">
+<div class="flex justify-between">
+    <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}">
+        &copy; {{ now.Format "2006" }} {{ .Site.Title }} - XIΞLΞVAN SOLUTIONS
+    </a>
     <div>{{ partial "social-follow.html" . }}</div>
-  </div>
-<script type="text/javascript">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"863c23b345c10b58fb7dff62376bf199111e81b4f15ad2d7291ceab17e4e9dd0", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");</script><script src="https://cdn.pagesense.io/js/org743550293/e47eada6547c46db9caccb73e1af74c9.js"></script></footer>
+</div>
+<script type="text/javascript">var $zoho = $zoho || {};
+$zoho.salesiq = $zoho.salesiq || {
+    widgetcode: "863c23b345c10b58fb7dff62376bf199111e81b4f15ad2d7291ceab17e4e9dd0",
+    values: {},
+    ready: function () {
+    }
+};
+var d = document;
+s = d.createElement("script");
+s.type = "text/javascript";
+s.id = "zsiqscript";
+s.defer = true;
+s.src = "https://salesiq.zoho.com/widget";
+t = d.getElementsByTagName("script")[0];
+t.parentNode.insertBefore(s, t);
+d.write("<div id='zsiqwidget'></div>");</script>
+<script src="https://cdn.pagesense.io/js/org743550293/e47eada6547c46db9caccb73e1af74c9.js"></script></footer>
